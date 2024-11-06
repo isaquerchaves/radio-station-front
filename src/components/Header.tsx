@@ -7,6 +7,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { AlignJustify } from "lucide-react";
+import Queue from "./Queue/Queue";
 
 const Header = () => {
   return ( 
@@ -19,7 +20,7 @@ const Header = () => {
             <SheetHeader>
               <SheetTitle>Fila</SheetTitle>
               <SheetDescription>
-                Aqui vai ter as próximas 5 musicas da fila
+                <Queue />
               </SheetDescription>
             </SheetHeader>
           </SheetContent>
